@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("images/softcrop.jpg");
+    background-position: left bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 80%;
+    
+
+    color: lavender;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#wrapper {
+    background-color: rgba(111, 71, 183, .80);
+    float:right;
+    margin-right: 10%;
+    padding: 2em;   
+    width: 40%;
+    overflow: auto;
+    max-width:750px;
+    min-width: 200px;
+    
+    height: 100%;
+}
+
+h1 {
+    color: white:
+}
+
+a {
+    color: white;
+    
+    text-decoration: none;
+    font-weight:bolder;
+}
+
+a:hover {
+    color: rgb(202, 173, 255);

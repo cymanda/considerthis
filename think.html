@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Consider this:</title>
+        <link rel="shortcut icon" href="favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="thinkmain.css">
+        <link rel="stylesheet" type="text/css" href="thinkbuttons.css">
+        <script src="js/jquery-3.2.1.min.js"></script>        
+        <script src="js/thinkevents.js" type="text/javascript"></script>
+        <script src="js/think.js" type="text/javascript"></script>
+    </head>
+    
+    <script>
+        $("#event").hide();
+    </script>
+
+    <body>
+        
+        
+        
+        <div id="wrapper">
+            <div id="event"> 
+                <p id="eventdesc">Event description here.</p>
+                <input id="option1" onclick="option1()" value="yes."/>
+                <input id="option2" onclick="option2()" value="no."/>
+            </div>
+            
+            <div id="stats">            
+            </div>
+
+            <div id="buttons">
+                <div id="home"><a href="index.html">Return.</a></div>
+                <input id="startstop" type="button" value="Start" onclick="startTimer()">
+                <span id="item1button"></span>
+                <span id="item2button"></span>
+            </div>
+
+            <div id="narration">
+                <!-- Narration here ...-->
+                <div id="narrationfade"></div>
+            </div>
+        </div>        
+        
+    </body>
+    
+</html>
